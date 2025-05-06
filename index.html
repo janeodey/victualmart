@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VictualMart | Eat healthy, Save & Make Money!!!</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- header section -->
+    <header class="header">
+      <a href="#home" class="logo"
+        ><img src="./images/victualmartLogo.png" alt=""></a
+      >
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#features">Feature</a>
+        <a href="#products">Products</a>
+        <a href="#categories">Categories</a>
+        <a href="#review">Review</a>
+        <a href="#blogs">Blogs</a>
+        <a href="#pricing">Pricing</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fa fa-bars" id="menu-btn"></div>
+        <div class="fa fa-search" id="search-btn"></div>
+        <div class="fa fa-shopping-cart" id="cart-btn"></div>
+        <div class="fa fa-user" id="login-btn"></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input type="text" id="search-box" placeholder="search here..." />
+        <label for="search-box" class="fa fa-search"></label>
+      </form>
+
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fa fa-trash"></i>
+          <img src="images/man-farmer.png" alt="" />
+          <div class="content">
+            <h3>Watermelon</h3>
+            <span class="price">$4.99/-</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fa fa-trash"></i>
+          <img src="images/man-farmer.png" alt="" />
+          <div class="content">
+            <h3>Onions</h3>
+            <span class="price">$4.99/-</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fa fa-trash"></i>
+          <img src="images/download.jpg" alt="" />
+          <div class="content">
+            <h3>Chicken</h3>
+            <span class="price">$4.99/-</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+
+        <div class="total">total: $19.69/-</div>
+        <a href="#" class="btn">Checkout</a>
+      </div>
+
+      <form action="" class="login-form">
+        <h3>Login now!</h3>
+        <input type="email" placeholder="enter your email" class="box" />
+        <input type="password" placeholder="your password" class="box" />
+        <p>forget your password? <a href="#">click here</a></p>
+        <p>Don't have an account? <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn" />
+      </form>
+    </header>
+    <!-- header section ends here... -->
+
+    <!-- home section starts here... -->
+    <section class="home" id="home">
+      <div class="content">
+        <div class="overlay">
+          <h3>A smart <span>Meal Subscription</span> platform</h3>
+          <p>
+            Eat Healthy, Save and Make Money!!!
+          </p>
+          <a href="#" class="btn banner"> shop now</a>
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- features section starts here -->
+    <section class="features" id="features">
+      <h1 class="heading">Our <span>features</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="./images/image1.png" alt="" />
+          <h3>Meal Subscription</h3>
+          <p>
+            We enable people subscribe for meals and culturally relevant food products, either dialy, weekly or monthly.
+          </p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+
+        <div class="box">
+          <img src="./images/nfc-people.png" alt="" />
+          <h3>NFC-enabled Payment</h3>
+          <p>
+            Offline payments – no internet needed
+
+          </p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+
+        <div class="box">
+          <img src="./images/personalize.jpeg" alt="" />
+          <h3>AI-personalized meal plans</h3>
+          <p>
+            Using AI for personalized meal recommendations, demand forecasting, and inventory optimization
+          </p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+      </div>
+    </section>
+    <!-- features section ends here -->
+
+    <!-- app and card -->
+     <section class="app" id="app">
+      <div class="nfc">
+        <h3>No internet? No wahala!</h3>
+        <p>pay with our NFC card and enjoy you meals</p>
+        <img src="./images/victualmartNFC.jpeg" alt="">
+        <h3>Check for our accredited top-up agents.</h3>
+      </div>
+      <div class="mobileapps">
+        <h3>Download our app</h3>
+        <p>and enjoy other features and discounts</p>
+        <img src="./images/mobileapp.png" alt="">
+        <div class="appStores">
+          <button class="appStore"></button>
+          <button class="playStore"></button>
+        </div>
+      </div>
+     </section>
+
+    <!-- App and card -->
+
+    <!-- products section starts here -->
+    <section class="products" id="products">
+      <h1 class="heading">Our <span>products</span></h1>
+
+      <div class="product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="./images/food1.jpg" alt="" />
+            <h3>Rice and stew</h3>
+            <div class="price">#1,000 - #5,000</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./images/afang.jpg" alt="" />
+            <h3>Afang Soup</h3>
+            <div class="price">#1,000</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./images/egusi.jpg" alt="" />
+            <h3>Egusi Soup</h3>
+            <div class="price">#1,000 - #5,000</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./images/beans.jpg" alt="" />
+            <h3>Beans and Dodo</h3>
+            <div class="price">#1,000</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="./images/yam.jpg" alt="" />
+            <h3>Yam</h3>
+            <div class="price">#5,000</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./images/rice.png" alt="" />
+            <h3>Rice</h3>
+            <div class="price">#5,000</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./images/palmoil.png" alt="" />
+            <h3>Palm Oil</h3>
+            <div class="price">#2,000</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./images/garri.jpg" alt="" />
+            <h3>Garri</h3>
+            <div class="price">#5,000</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+
+
+
+    </section>
+
+    <!-- products section ends -->
+
+    <!-- categories section starts -->
+     <section class="categories" id="categories">
+
+        <h1 class="heading">Product <span>categories</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./images/Meal-Planning.jpg" alt="">
+                <h3>Meal Plans</h3>
+                <p>starts from $1</p>
+                <a href="#" class="btn">buy now</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/fruitsandvegetables.jpg" alt="">
+                <h3>Nutrient-Rich Vegetables and Fruits</h3>
+                <p>starts from $2</p>
+                <a href="#" class="btn">Buy now</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/groceries.png" alt="">
+                <h3>Groceries</h3>
+                <p>starts from $10</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/group.jpg" alt="">
+                <h3>Group Purchasing</h3>
+                <p>upto 30% off</p>
+                <a href="#" class="btn">Join Now</a>
+            </div>
+        </div>
+     </section>
+
+    <!-- categories section ends -->
+
+    <!-- review section starts here -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading">customer's <span>review</span></h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper ">
+
+                <div class="swiper-slide box">
+                    <img src="./images/man-farmer.png" alt="">
+                    <p>I now get value for my money thanks to VictualMart. I have been able to sell off my produce at a very good rate.</p>
+                    <h3>Jane Feo</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/p1.png" alt="">
+                    <p>I couldn't have asked for a better deal than this, thanks VictualMart, you are a real life saver.</p>
+                    <h3>Emem Ini</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/p1.png" alt="">
+                    <p>I couldn't have asked for a better deal than this, thanks VictualMart, you are a real life saver.</p>
+                    <h3>Emem Ini</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/p2.png" alt="">
+                    <p>I love the idea that i don't have to think of what to eat, everything is set and deliver in due time. Very great services.</p>
+                    <h3>Mike Oti</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- review section ends here -->
+
+
+    <!-- blogs section starts here -->
+     <section class="blogs" id="blogs">
+
+        <h1 class="heading">Our <span>blogs</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./images/climate.png" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-user"></i> Jane Odey -</a>
+                        <a href="#"><i class="fa fa-calendar"></i>1st May, 2025</a>
+                    </div>
+                    <h3>Eating for a climate stable environment.</h3>
+                    <p>Eat food, most plant, and in moderate quantity</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/image1.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-user"></i> Henrietta</a>
+                        <a href="#"><i class="fa fa-calendar"></i>1st May, 2025</a>
+                    </div>
+                    <h3>How we are tackling food waste - one meal at a time</h3>
+                    <p>Dive deep into VictualMart's work on mitigating the impact of food waste.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/foodhead.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-user"></i> Jane</a>
+                        <a href="#"><i class="fa fa-calendar"></i>2nd April, 2025</a>
+                    </div>
+                    <h3>We are what we eat.</h3>
+                    <p>We need to rethink what we grow and consume in other to stay healthy and live a fulfiling life.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+
+     </section>
+
+    <!-- blogs section ends here -->
+
+    <!-- footer section starts here -->
+     <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3><img src="./images/victualmartLogo.png" alt=""></h3>
+                <p>Your most reliable food nerwork</p>
+                <div class="share">
+                    <a href="#" class="fa fa-facebook-f"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"><i class="fa fa-phone"></i> +234 07059559399</a>
+                <a href="#" class="links"><i class="fa fa-phone"></i> +234 07059559399</a>
+                <a href="#" class="links"><i class="fa fa-email"></i> victualmarts@gmail.com</a>
+                <a href="#" class="links"><i class="fa fa-map-marker-alt"></i> Lagos, Nigeria - 31200 </a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> home</a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> features</a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> products</a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> categories</a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> review</a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> blogs</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="./images/payment.png" alt="" class="payment-img">
+            </div>
+
+
+        </div>
+
+        <div class="credit">created by <span>VictualMart LTD</span> | all rights reserved</div>
+     </section>
+
+    <!-- footer section ends here -->
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
